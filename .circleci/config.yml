@@ -42,6 +42,7 @@ run_complex: &run_complex
     branches:
       only:
         - circleci-project-setup
+        - release-v.*
     tags:
       only: /.*/
 
