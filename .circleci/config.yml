@@ -41,7 +41,7 @@ run_complex: &run_complex
   filters:
     branches:
       only:
-        - (master|release-v.*)
+        - (circleci-project-setup|release-v.*)
     tags:
       only: /.*/
 
